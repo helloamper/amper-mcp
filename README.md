@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e8305cf6-0268-49a1-9b82-f71ff2a17214" alt="Amper MCP Server" width="100%" />
+</p>
+
 # Amper MCP Server
 
 MCP server that exposes [Amper's](https://amper.chat) 80+ DeFi tools to any MCP-compatible client.
