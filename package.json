@@ -1,0 +1,28 @@
+{
+  "name": "amper-mcp-server",
+  "version": "0.1.0",
+  "description": "MCP server that exposes Amper's 80+ DeFi tools to any MCP client (Hermes, Claude Code, Cursor, etc.)",
+  "type": "module",
+  "main": "dist/index.js",
+  "private": true,
+  "bin": {
+    "amper-mcp-server": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "keywords": ["mcp", "amper", "defi", "hermes", "aeon", "agent"],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "typescript": "^5.8.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
